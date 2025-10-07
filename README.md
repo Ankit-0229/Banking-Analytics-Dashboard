@@ -1,61 +1,87 @@
-# Banking Dashboard
+# 🏦 Banking Analytics Dashboard
 
-A comprehensive **Power BI** dashboard that analyzes client relationships, deposits, and loans using interactive visuals, KPI cards, and filters.
+An interactive **Power BI Dashboard** designed to analyze **banking data**, including **deposits, loans, and customer behavior**.  
+The dashboard helps visualize key financial metrics, track performance trends, and gain actionable insights into banking operations.
 
-## Overview  
-This dashboard provides insights into bank-client relationships, transaction volumes, and demographic breakdowns across time. It includes tabs for **Home**, **Loan Analysis**, **Deposit Analysis**, and **Summary**, enabling stakeholders to explore metrics from different angles.
+---
 
-## Key Metrics (ex: 2000–2003)  
-- **Total Deposit**: 3.77 bn  
-- **Savings Accounts**: 698.73 M  
-- **Checking Accounts**: 963.28 M  
-- **Total Loan**: 4.38 bn  
-- **Bank Loan**: 1.77 bn  
-- **Credit Card Balance**: 9.53 M  
-- **Business Lending**: 2.60 bn  
-- **Foreign Currency Accounts**: 89.65 M  
-- **Total Clients**: 3,000
+## 🎯 Project Overview
 
-## Key Visualizations  
+This project focuses on analyzing **banking data** using **Power BI** and **Excel**.  
+The dataset contains over **50,000+ records**, including information on customer accounts, deposits, loans, and transactions.  
+The objective was to design a dynamic dashboard that enables easy monitoring of financial KPIs and identifies trends in banking performance.
 
-### Loan Analysis  
-- **Total Loan & Bank Loan KPIs**
-- **Credit Card & Business Lending Tiles**
-- **Loans by Nationality**: Pie chart  
-- **Loans by Occupation**: Bar chart  
-- **Loans by Income Band**: Donut chart (Low / Mid / High)  
-- **Loans by Banking Relationship (BRId)**: Bar chart
+---
 
-### Deposit Analysis  
-- **Total Deposit & Bank Deposit KPIs**
-- **Savings & Checking Account Tiles**  
-- **Foreign Currency Deployments**  
-- **Deposits by Nationality**: Bar chart  
-- **Deposits by Occupation**: Bar chart  
-- **Loan Income Band Chart** (reuse pie)
+## 🚀 Key Insights & Features
 
-### Summary  
-- Combined overview of deposits, loans, and client count  
-- **Loyalty Classification by Nationality**: Tree map
+-  **Total Deposits:** $5.12M  
+-  **Total Loans:** $3.45M  
+-  **Loan-to-Deposit Ratio:** 67%  
+-  **Total Customers:** 12.3K  
+-  **Top Branch by Deposits:** Jaipur Main Branch  
+-  **Trend Analysis:** Deposits and loans over time (monthly & quarterly)  
+-  **Top Loan Products** and **High-Value Customers**  
+-  **Dynamic Filters:** Branch, Loan Type, and Quarter  
+
+---
+
+## 🧰 Tools & Technologies
+
+- **Power BI** → Data modeling, visualization, KPI tracking  
+- **Excel** → Data cleaning, preprocessing, and transformation  
+
+---
+
+## 🧱 Workflow
+
+1. **Data Cleaning (Excel):**  
+   - Removed missing values, duplicates, and corrected inconsistent entries.  
+2. **Data Loading (Power BI):**  
+   - Imported the cleaned dataset into Power BI and transformed data using Power Query.  
+3. **Dashboard Design:**  
+   - Created KPIs, line charts, bar charts, and matrix tables.  
+   - Added slicers for **Branch**, **Loan Type**, and **Quarter**.  
+4. **Insight Generation:**  
+   - Identified top-performing branches, products, and customer segments.  
+
+---
+
+## 📸 Dashboard Preview
+
+### Home View
+![Dashboard Home View](https://github.com/Ankit-0229/Banking-Analytics-Dashboard/blob/main/Dashboard_Home_View.png)
+
+### Loans View
+![Dashboard Loans View](https://github.com/Ankit-0229/Banking-Analytics-Dashboard/blob/main/Dashboard_Loans_View.png)
 
 
-## Tools & Tech  
-- **Platform**: Power BI Desktop  
-- **Data Source**: Excel / CSV via Power Query  
-- **Transformations**: DAX + Power Query  
-- **Filters**: Year slicer, banking relationship, gender, investment advisor
+### Deposits View
+![Dashboard Deposits View](https://github.com/Ankit-0229/Banking-Analytics-Dashboard/blob/main/Dashboard_Deposits_view.png)
 
+### Summary View
+![Dashboard Summary View](https://github.com/Ankit-0229/Banking-Analytics-Dashboard/blob/main/Dashboard_Summary_view.png)
 
-## Features  
-- **Multi-tab navigation**: Home • Loan Analysis • Deposit Analysis • Summary  
-- **Interactive slicers** for year, gender, relationship, and advisor  
-- **KPI cards** for quick glance metrics  
-- **Dynamic charts** updating based on selected filters
+---
 
+## 💡 Key Finding
 
-## Data Source  
-- **Clients dataset (Excel/CSV)
+💰 The **loan-to-deposit ratio** was approximately **67%**, highlighting the balance between deposits and lending activity.  
+🏦 The **Jaipur Main Branch** contributed the highest share of deposits, indicating strong regional performance.
 
-👋 Author | Ankit Kumar Yadav | BCA in AI | Data Analyst Learner 
-Connect on LinkedIn (www.linkedin.com/in/ankityadav022)
+---
 
+## 🧠 Learnings
+
+- Skills in **Power BI dashboard creation and financial analysis**  
+- Learned to **clean and structure large banking datasets in Excel**  
+- Gained experience in **interpreting KPIs to provide actionable insights for banking operations**
+
+---
+
+## 👨‍💻 Author
+
+**Ankit Yadav**  
+🎓 BCA Student | 💼 Aspiring Data Analyst  
+🔗 [LinkedIn](https://www.linkedin.com/in/ankityadav-data)  
+💻 [GitHub](https://github.com/Ankit-0229)
